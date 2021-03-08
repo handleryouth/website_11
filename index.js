@@ -2,9 +2,9 @@ const answer = document.querySelectorAll(".answer")
 const question = document.querySelectorAll(".question")
 
 
-  for(var i = 0; i<6; i++){
+  for(var i = 0; i<5; i++){
   question[i].addEventListener("click", function() {
-    if (answer[i].classList[1] === "hidden") {
+    if (answer[i].classList.contains("hidden")) {
       answer[i].classList.remove("hidden");
       answer[i].classList.add("visible");
       document.querySelectorAll(".arrow-down")[i].style.transform = "rotate(180deg)";
