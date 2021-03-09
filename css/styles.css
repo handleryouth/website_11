@@ -192,6 +192,10 @@ body{
     margin-right: 1.5rem;
   }
 
+  .box-img{
+    width: 7rem;
+  }
+
   /*for the right*/
   .first-question, .second-question, .third-question, .fourth-question, .fifth-question{
     font-size: 0.74rem;
@@ -203,6 +207,8 @@ body{
   .woman-illustration-desktop{
     width: 13rem;
   }
+
+
 
   /*for the right*/
   .header-title{
@@ -216,12 +222,23 @@ body{
 }
 
 @media(max-width:822px){
+/*  .main{
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }*/
+
+
   .right{
     padding-right: 2.5em;
+  }
+
+  .woman-illustration-desktop{
+    position: relative;
   }
 }
 
 @media(max-width:784px){
+  /*most likely like phone*/
   .main{
     display: flex;
     flex-direction: column;
@@ -242,6 +259,13 @@ body{
     position: relative;
     left: 1px;
     bottom: 6rem;
+  }
+
+  .box-img{
+    position: absolute;
+    top: -3rem;
+    left: -2rem;
+    width: 7rem;
   }
 
   /*for the right*/
@@ -274,6 +298,14 @@ body{
 @media(max-width:688px){
   .main{
     margin: 7rem 0;
+  }
+
+  /*for the left*/
+  .box-img{
+    position: absolute;
+    top: -3rem;
+    left: -2.5rem;
+    width: 8rem;
   }
 
 
